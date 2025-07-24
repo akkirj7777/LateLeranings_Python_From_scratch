@@ -5,7 +5,7 @@ Mainly, there are Global and Local scopes to define variables in programming lan
 
 example:
 
-```
+<pre>```python
 name = "Luffy"       # Global Variable
 
 def greet():
@@ -13,7 +13,7 @@ def greet():
     print("Hello", name)
 
 greet()
-```
+```<pre>
 
 
 Output:
