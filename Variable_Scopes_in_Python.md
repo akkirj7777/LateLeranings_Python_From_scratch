@@ -13,7 +13,7 @@ def greet():
     print("Hello", name)
 
 greet()
-```<pre>
+```</pre>
 
 
 Output:
