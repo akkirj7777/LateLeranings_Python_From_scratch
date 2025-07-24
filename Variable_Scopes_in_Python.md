@@ -88,13 +88,13 @@ Traceback (most recent call last):
 NameError: name 'a' is not defined
 ```
 
-as we can see, only first function is executed correctly and python threw an error while executing the second function which is ‘sub()‘, the reason being this function fails to identify the variables as they are not defined in first place where as in first function ‘addition()‘,
+- as we can see, only first function is executed correctly and python threw an error while executing the second function which is ‘sub()‘, the reason being this function fails to identify the variables as they are not defined in first place where as in first function ‘addition()‘,
 the variables are defined locally and one function cannot access teh variables defined inside the scope of another function.
 
 Note:
 If we want to define variables that all functions can access, we should define those variables in the global scope. On the other hand, if we want variables to be available and accessible only within one function, we should define them with a local scope.
 
-Now to overcome the error in above block of code we will define one more variable 'c' and we will put it inside first function 'addition()', we will define 'a' and 'b' globally as follows:
+- Now to overcome the error in above block of code we will define one more variable 'c' and we will put it inside first function 'addition()', we will define 'a' and 'b' globally as follows:
 
 ```python
 a = 10
