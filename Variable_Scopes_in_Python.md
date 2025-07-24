@@ -93,3 +93,31 @@ the variables are defined locally and one function cannot access teh variables d
 
 Note:
 If we want to define variables that all functions can access, we should define those variables in the global scope. On the other hand, if we want variables to be available and accessible only within one function, we should define them with a local scope.
+
+Now to overcome the error in above block of code we will define one more variable 'c' and we will put it inside first function 'addition()', we will define 'a' and 'b' globally as follows:
+
+```python
+a = 10
+b = 5
+
+def addition():
+    c = 10
+    print(a + b + c)
+    
+
+def sub():
+    print(a - b)
+
+
+addition()
+sub()
+```
+
+ output:
+
+```
+$ F:/Python/python-for-devops/.venv/Scripts/python.exe f:/Python/python-for-devops/Day-03/test.py
+25
+5
+
+```
