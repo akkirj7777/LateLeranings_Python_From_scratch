@@ -5,6 +5,7 @@ Mainly, there are Global and Local scopes to define variables in programming lan
 
 example:
 
+```
 name = "Luffy"       # Global Variable
 
 def greet():
@@ -12,6 +13,7 @@ def greet():
     print("Hello", name)
 
 greet()
+```
 
 
 Output:
@@ -22,6 +24,7 @@ which stores the string “Akshay“ and prints the output as $ python test2.py 
 
 
 Another example:
+```
 a = 10    #Global Variable
 b = 6
 
@@ -36,6 +39,7 @@ def sub():
 addition()
 sub()
 
+```
 
 Output:
 $ python test.py
@@ -50,6 +54,7 @@ Lets get more deeper!
 
 see the exapmle below:
 
+```
 def addition():
     a = 10
     b = 5
@@ -63,6 +68,7 @@ def sub():
 addition()
 sub()
 
+```
 
 Output:
 $ F:/Python/python-for-devops/.venv/Scripts/python.exe f:/Python/python-for-devops/Day-03/test.py
