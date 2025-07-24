@@ -20,7 +20,7 @@ Output:
 $ python test2.py Hello Akshay
 ```
 
-In the above example, we have defined the variable ‘number‘ two times, once globally and again inside ‘greet():‘. But when we run this program, the function by default gives preference to its local variable (name),
+- In the above example, we have defined the variable ‘number‘ two times, once globally and again inside ‘greet():‘. But when we run this program, the function by default gives preference to its local variable (name),
 which stores the string “Akshay“ and prints the output as $ python test2.py Hello Akshay even after we have written a global variable as name = “Luffy“ .
 
 
@@ -50,7 +50,7 @@ $ python test.py
 4
 ```
 
-In the above example, we have defined two functions addition(): and sub():. First function has its own local variables defined as a = 5, b = 5, 
+- In the above example, we have defined two functions addition(): and sub():. First function has its own local variables defined as a = 5, b = 5, 
 whereas the second function accesses the global variables as a = 10, b = 6.
 
 
