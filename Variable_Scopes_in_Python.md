@@ -21,7 +21,7 @@ $ python test2.py Hello Akshay
 ```
 
 - In the above example, we have defined the variable ‘number‘ two times, once globally and again inside ‘greet():‘. But when we run this program, the function by default gives preference to its local variable (name),
-which stores the string “Akshay“ and prints the output as $ python test2.py Hello Akshay even after we have written a global variable as name = “Luffy“ .
+which stores the string “Akshay“ and prints the output as ```$ python test2.py Hello Akshay``` even after we have written a global variable as ```name = “Luffy“``` .
 
 
 
