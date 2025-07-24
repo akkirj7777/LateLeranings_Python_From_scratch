@@ -16,14 +16,17 @@ greet()
 ```
 
 Output:
+```
 $ python test2.py Hello Akshay
+```
+
 In the above example, we have defined the variable ‘number‘ two times, once globally and again inside ‘greet():‘. But when we run this program, the function by default gives preference to its local variable (name),
 which stores the string “Akshay“ and prints the output as $ python test2.py Hello Akshay even after we have written a global variable as name = “Luffy“ .
 
 
 
 Another example:
-```
+```python
 a = 10    #Global Variable
 b = 6
 
@@ -40,10 +43,13 @@ sub()
 
 ```
 
+```
 Output:
 $ python test.py
 10
 4
+```
+
 In the above example, we have defined two functions addition(): and sub():. First function has its own local variables defined as a = 5, b = 5, 
 whereas the second function accesses the global variables as a = 10, b = 6.
 
@@ -53,7 +59,7 @@ Lets get more deeper!
 
 see the exapmle below:
 
-```
+```python
 def addition():
     a = 10
     b = 5
@@ -70,6 +76,7 @@ sub()
 ```
 
 Output:
+```
 $ F:/Python/python-for-devops/.venv/Scripts/python.exe f:/Python/python-for-devops/Day-03/test.py
 15
 Traceback (most recent call last):
@@ -79,6 +86,7 @@ Traceback (most recent call last):
     print(a - b)
           ^
 NameError: name 'a' is not defined
+```
 
 as we can see, only first function is executed correctly and python threw an error while executing the second function which is ‘sub()‘, the reason being this function fails to identify the variables as they are not defined in first place where as in first function ‘addition()‘,
 the variables are defined locally and one function cannot access teh variables defined inside the scope of another function.
