@@ -7,10 +7,7 @@ Common in Python (PEP 8 standard)
 
 Examples:
 
-```
-python
-Copy
-Edit
+```python
 user_name = "akshay"
 total_price = 99.99
 def get_user_data():
@@ -25,10 +22,7 @@ No spaces or underscores
 
 Examples:
 
-```
-python
-Copy
-Edit
+```python
 userName = "akshay"
 totalPrice = 99.99
 def getUserData():
